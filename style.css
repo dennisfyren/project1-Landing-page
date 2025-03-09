@@ -192,3 +192,12 @@ ul {
     text-decoration: none;
     border: 1px solid #f9faf8;
 }
+
+.footer {
+    background: #1f2937;
+    height: 120px;
+    color: #f9faf8;
+    font-size: 14px;
+    text-align: center;
+    align-content: center;
+}
