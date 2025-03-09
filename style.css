@@ -2,12 +2,42 @@
 
 * {
     font-family: Roboto, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header {
+    display: flex;
+    margin: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
     display: flex;
 }
 
 ul {
     list-style-type: none;
+    display: flex;
+}
+
+.list-right {
+    gap: 15px;
+    margin-right: 5px;
+    margin-left: auto;
+}
+
+.logo {
+    font-size: large;
+    font-weight: 700;
+    margin-right: auto;
+}
+
+.link {
+    font-size: small;
+    font-weight: 300;
 }
